@@ -1,0 +1,375 @@
+body{
+    width: 100%;
+    font-family: "Poppins", serif; 
+    font-size: small;
+}
+ 
+  
+  
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  
+  .hero nav{
+      background-color: rgb(0, 0, 0);
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      /* position: fixed;
+      width: 100%;
+      top: 0px;
+      z-index: 1; */
+  }
+  
+
+  
+  .hero nav ul li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 40px;
+  }
+  
+  .hero nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+  }
+  
+
+  
+  .hero nav a:hover{
+    color: rgba(238, 85, 41, 1);
+    transition: 0.5s;
+    }
+
+    .hero img{
+        width: 200px;
+    }
+
+
+    /* <!-- ------events1------ --> */
+
+    .events1 h1{
+        text-align: center;
+        font-family: "Days One", sans-serif;
+        font-size: 60px;
+        margin-top: 50px;
+        color: rgba(238, 85, 41, 1);
+    
+    }
+
+    .events1 h3{
+        text-align: center;
+        font-family: "Days One", sans-serif;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+
+     /* <!-- ------events2------ --> */
+    .events2{
+       display: flex;
+       flex-direction: row;
+       gap: 19px;
+       justify-content: center;
+       background-color:  rgba(238, 85, 41, 1);
+       width: 90%;
+       height: 380px;
+       margin-left: 60px;
+
+    }
+
+    .events2 img{
+        width: 304px;
+    }
+
+    .events2 h1{
+        font-size: 30px;
+        width: 500px;
+        text-align: center;
+        color: white;
+    }
+
+    .events2 h2{
+        font-size: 17px;
+        width: 500px;
+        text-align: center;
+        color: white;
+    }
+
+    .events2 p{
+       font-size: 13px;
+        width: 500px;
+        text-align: center;
+        color: white;
+    }
+
+    .but-event{
+        display: flex;
+        gap: 20px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+
+    .but-event button{
+        height: 35px;
+        width: 100px;
+        border-style: none;
+        border-radius: 3px;
+        color:  rgba(238, 85, 41, 1);
+    }
+
+    .but-event :hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        transition: 0.50s;
+      }
+
+
+ /* <!-- ------events3------ --> */
+    
+
+    .events3{
+        display: flex;
+        flex-direction: row;
+        gap: 19px;
+        justify-content: center;
+        background-color:  rgb(0, 0, 0);
+        width: 90%;
+        height: 380px;
+        margin-left: 60px;
+        margin-top: 50px;
+ 
+     }
+
+     .events3 img{
+        width: 304px;
+    }
+
+
+    .events3 h1{
+        font-size: 40px;
+        width: 500px;
+        text-align: center;
+        color: white;
+    }
+
+    .events3 h2{
+        font-size: 20px;
+        width: 500px;
+        text-align: center;
+        color: white;
+    }
+
+    .events3 p{
+       font-size: 17px;
+        width: 500px;
+        text-align: center;
+        color: white;
+    }
+
+    .but-event2{
+        display: flex;
+        gap: 20px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+
+    .but-event2 button{
+        height: 35px;
+        width: 100px;
+        border-style: none;
+        border-radius: 3px;
+        color:  rgba(238, 85, 41, 1);
+    }
+
+    
+    .events3 h1,p button{
+        padding-top: 100px;
+    }
+
+     /* <!-- ------events4------ --> */
+
+     .events4 h1{
+        font-size: 40px;
+        font-family: "Days One", sans-serif;
+        color: rgba(238, 85, 41, 1);
+        text-align: center;
+        margin: 50px;
+     }
+
+
+/* <!-- ------events5------ --> */
+     
+    .events5{
+        display: flex;
+        flex-direction: row;
+        gap: 19px;
+        justify-content: center;
+        background-color: rgba(238, 85, 41, 1);
+        width: 90%;
+        height: 380px;
+        margin-left: 60px;
+        margin-top: 50px;
+ 
+     }
+
+     .events5 img{
+        width: 304px;
+    }
+
+
+    .events5 h1{
+        font-size: 40px;
+        width: 500px;
+        text-align: center;
+        color: white;
+    }
+
+    .events5 h2{
+        font-size: 20px;
+        width: 500px;
+        text-align: center;
+        color: white;
+    }
+
+    .events5 p{
+       font-size: 17px;
+        width: 500px;
+        text-align: center;
+        color: white;
+    }
+
+    .but-event3{
+        display: flex;
+        gap: 20px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+
+    .but-event3 button{
+        height: 35px;
+        width: 100px;
+        border-style: none;
+        border-radius: 3px;
+        color:  rgba(238, 85, 41, 1);
+        transition: 0.25s;
+    }
+
+   
+    .but-event3 :hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        transition: 0.50s;
+      }
+
+    .events3 h1,p button{
+        padding-top: 100px;
+    }
+
+
+    /* <!-- .......show....... --> */
+
+    .show h1{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Days One", sans-serif;
+        color:  rgba(238, 85, 41, 1);
+        font-size: 50px;
+
+    }
+
+    .show samp{
+        color: black;
+        font-family: "Days One", sans-serif;
+    }
+
+
+    /* <!-- ....low-image..... --> */
+
+    .low-image{
+        width: 100%;
+       margin-bottom: -90px;
+
+      }
+  
+      .low-image svg{
+        background-color:  rgba(238, 85, 41, 1);
+      }
+
+
+      /* ....footer....... */
+    
+    .footer{
+        display: flex;
+        margin-top: 120px;
+        background-color: black;
+        height: 200px;
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+    
+    .footer h1, h4{
+        color: white;
+    }
+    
+    .footer input{
+        width: 200px;
+        height: 50px;
+        padding-left: 5px;
+        margin: 20px;
+        font-size: 18px;
+        margin-left: 50px;
+        
+    }
+    
+    #form-the{
+        margin-left: 200px;
+        margin-top: 10px;
+        background-color:rgba(238, 85, 41, 1);
+        border-style: none;
+        text-align: center;
+      
+    }
+    
+    #form-the::placeholder {
+        color: white;
+    }
+    
+    .foot-link ul li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+        
+    
+    }
+    
+    .foot-link  ul li a{
+       color: rgba(238, 85, 41, 1);
+        text-decoration: none;
+         font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .foot-link ul {
+        margin-top: 30px;
+    }
+    
+    footer h6{
+        color: white;
+        font-size: 10px;
+        margin-top: 50px;
+    }
+    
+
+
+ 

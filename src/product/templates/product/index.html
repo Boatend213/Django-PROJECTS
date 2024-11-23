@@ -1,0 +1,161 @@
+{% extends "layout/layout.html" %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block content %}
+{% load static %}
+
+
+
+
+    <div class="page1">
+        <div> <h1>Canada's #1<br>
+            <span> Digital Soccer Media<br>
+             & Events Company</span></h1>
+             <h3>WE ARE EVERYTHING CANADIAN SOCCER</h3>
+            </div>
+
+            <div> <img src="pic 1.png" alt=""></div>
+
+    </div>
+
+     <!-- ---------page2-------- -->
+
+     <div class="page2">
+        <h1>Events</h1>
+    </div>
+
+    <!-- -------page3----- -->
+
+
+
+        <div class="page3">
+      <div>  <img src="pic 2.jpg" alt=""></div>
+
+      <div>
+        <h1>FTF x VSC Fall <br> Showdown</h1>
+        <p><span>Location:</span>Vaughan Ontario,<br>
+            <span>Boys:</span>Fridays, October 25th-Sunday,October,2024,<br>
+            <span>Boys:</span>Friday,November 1st-Sunady,November
+
+            <div class="button1">
+                <a href="learn more.html"><button>Learn More</button></a>
+                <a href="register.html"><button >Register Now</button></a>
+            </div>
+
+        </p>
+      </div>
+
+      <div> <img id="image2" src="pic 3.jpg" alt=""></div>
+
+    </div>
+
+
+<!-- --------colunm Starts---------- -->
+
+   <div class="colunm">
+
+     <!-- -------page4-------- -->
+         {%  for data in football %}
+     <div class="page4">
+       <div>
+        <h1>{{data.name}} </h1>
+        <p>
+           {{data.descriotion}}
+        </p>
+        <a href="register.html"><button>Register Now</button></a>
+       </div>
+
+       <div>
+        <img src="{{data.image.url}}" alt=""></div>
+
+    </div>
+
+
+ {% endfor %}
+   </div>
+<!-- --------colunm Ends---------- -->
+
+
+
+     <!-- --------page7---------- -->
+
+    <div class="page7">
+        <div>
+            <h1>News</h1>
+            <p>
+                <SPan>FTF</SPan> broadcasts daily news content from the Canadian Soccer Community
+                 including: university player commitments, professional signings,
+                 goals + assists from professional players, breaking news and more!
+            </p>
+
+            <div class="page7-icon">
+
+
+                <ul style="color:  rgba(238, 85, 41, 1);">
+                    <li><a href="#">
+                        <img width="30" height="30"
+                        src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png"
+                         alt="instagram-new--v1"/>
+                    </a></li>
+
+                        <li><a href="#">
+                            <img width="30" height="30"
+                            src="https://img.icons8.com/ios-filled/50/facebook-new.png"
+                            alt="facebook-new"/>
+                        </a></li>
+
+                         <li><a href="#">
+                            <img width="30" height="30"
+                            src="https://img.icons8.com/ios-filled/50/twitter.png"
+                            alt="twitter"/>
+                         </a></li>
+
+                         <li><a href="#"><img width="30" height="30"
+                            src="https://img.icons8.com/ios-filled/50/youtube-play.png"
+                             alt="youtube-play"/></a></li>
+
+                         <li><a href="#">
+                            <img width="30" height="30"
+                            src="https://img.icons8.com/ios-filled/50/tiktok--v1.png"
+                             alt="tiktok--v1"/>
+                         </a></li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="home-pic"> <img src="aww 4.png" alt=""></div>
+
+     </div>
+
+
+      <!-- --------page8---------- -->
+
+     <div class="page8">
+        <div><img src="some logo.png" alt=""></div>
+       <div> <h3>You Want To Become A Sponsor?</h3></div>
+    </div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

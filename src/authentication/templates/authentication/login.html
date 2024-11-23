@@ -1,0 +1,14 @@
+<h1> Login Page</h1>
+
+
+
+<a href="{% url 'request-new-link-from-email' %}">Request New Email Link</a>
+<!--<a href="/verification/user/verify-email/request-new-link/" >Request New Email Link</a>-->
+
+<form method="post" style="width:10%" align ="center">
+	{% csrf_token %}
+	{{form.as_p}}
+	<input type="submit" value="Login">
+</form>
+<a href="{% url 'password_reset'%}"> </a>
+<P>Dont  have an account? <a href="{% url 'register' %}">Register</a></P>

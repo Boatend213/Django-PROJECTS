@@ -1,0 +1,29 @@
+{% load static %}
+<div class="hero">
+
+    {% if request.user.is_superuser or request.user.is_staff %}
+<a href="{% url 'admin' %}">AdminPage</a>
+{% endif %}
+
+{% if request.user.is_authenticated %}
+<p>{{request.user}}</p>
+<!--<p>{{key}}</p>-->
+<a href="{% url 'login' %}">Logout</a>
+{% else %}
+<a href="{% url 'login' %}">login</a>
+{% endif %}
+    <nav>
+
+            <img src="logo1.png" alt="">
+
+            <ul class="navbar">
+            <li><a href="{% url 'ShowHome' %}">Home</a></li>
+            <li><a href="{% url 'About' %}">About US</a></li>
+            <li><a href="{% url 'Services' %}">Services</a></li>
+            <li><a href="{% url 'Events' %}">Event</a></li>
+            <li><a href="{% url 'Highlight Videos' %}">Highligh videos</a></li>
+            <li><a href="{% url 'Contact' %}">Contact</a></li>
+
+            </ul>
+        </nav>
+    </div>

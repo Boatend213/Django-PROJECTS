@@ -1,0 +1,353 @@
+body{
+    width: 100%;
+    font-family: "Poppins", serif; 
+    font-size: small;
+}
+ 
+  
+  
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  
+  .hero nav{
+      background-color: rgb(0, 0, 0);
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      /* position: fixed;
+      width: 100%;
+      top: 0px;
+      z-index: 1; */
+  }
+  
+
+  
+  .hero nav ul li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 40px;
+  }
+  
+  .hero nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+  }
+  
+
+  
+  .hero nav a:hover{
+    color: rgba(238, 85, 41, 1);
+    transition: 0.5s;
+    }
+
+    .hero img{
+        width: 200px;
+    }
+
+    .contact-text{
+        background-image: url(ballkoo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+    }
+
+    .contact-text{
+        text-align: center;
+    }
+
+    .contact-text h1{
+        font-size: 70px;
+        color: white;
+        padding-top: 90px;
+        font-family: "Days One", sans-serif;
+    }
+
+    .contact-text p{
+        font-size: 30px;
+        color: white;
+        padding-top: 30px;
+    }
+
+
+    .con-icon{
+      margin-top: 90px;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      
+
+    }
+  /* <!-- ......phone........ --> */
+
+    .phone-icon{
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px; 
+    background-color: rgb(36, 36, 36); 
+    color: white;  
+    width: 240px;
+    height: 120px;
+    padding-top: 20px;
+    border-radius: 10px;
+    }
+
+    .phone-icon h6{
+        font-size: 30px;
+
+    }
+
+    .phone-icon h5{
+        font-size: 20px;
+    }
+
+    .phone-icon i{
+        font-size: 30px;
+    }
+
+    /* <!-- ......whatsapp........ --> */
+
+    
+    .whatup-icon{
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px; 
+        background-color: rgb(36, 36, 36); 
+        color: white;  
+        width: 200px;
+        height: 120px;
+        padding-top: 20px;
+        border-radius: 10px;
+        }
+    
+        .whatup-icon h6{
+            font-size: 30px;
+    
+        }
+    
+        .whatup-icon h5{
+            font-size: 20px;
+        }
+    
+        .whatup-icon i{
+            font-size: 30px;
+        }
+
+
+        .love-icon{
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+          }
+
+
+
+          .email-icon{
+     
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 100px; 
+            background-color: rgb(36, 36, 36); 
+            color: white;  
+            width: 240px;
+            height: 120px;
+            padding-top: 20px;
+            border-radius: 10px;
+            }
+        
+            .email-icon h6{
+                font-size: 30px;
+        
+            }
+        
+            .email-icon h5{
+                font-size: 20px;
+            }
+        
+            .email-icon i{
+                font-size: 30px;
+            }
+
+
+
+            
+          .address-icon{
+     
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 30px; 
+            background-color: rgb(36, 36, 36); 
+            color: white;  
+            width: 200px;
+            height: 120px;
+            padding-top: 20px;
+            border-radius: 10px;
+            }
+        
+            .address-icon h6{
+                font-size: 30px;
+        
+            }
+        
+            .address-icon h5{
+                font-size: 20px;
+            }
+        
+            .address-icon i{
+                font-size: 30px;
+            }
+
+            .con-from{
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                float: right;
+                margin-top: -350px;
+                margin-right: 140px;
+                
+            }
+
+
+            .touch-text{
+               
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+            }
+
+
+            .touch{
+               text-align: center;
+            }
+
+            .touch h1{
+                font-size: 30px;
+                color: rgba(238, 85, 41, 1);
+                font-family: "Days One", sans-serif;
+            }
+
+            .touch p{
+                font-size: 15px;
+            }
+
+            .touch-text{
+                margin-top: 30px;
+            }
+
+
+            .touch-text input{
+                width: 300px;
+                height: 30px;
+                padding-left: 20px;
+                border-radius: 5px;
+                border-style: solid;
+                
+            }
+
+            .touch-text button{
+                width: 120px;
+                height: 30px;
+               padding: auto;
+               background-color: black;
+               color: white;
+               border-style: none;
+            }
+
+
+            
+       /* ....footer....... */
+    
+       .footer{
+        display: flex;
+        margin-top: 120px;
+        background-color: black;
+        height: 200px;
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+    
+    .footer h1, h4{
+        color: white;
+    }
+    
+    .footer input{
+        width: 200px;
+        height: 50px;
+        padding-left: 5px;
+        margin: 20px;
+        font-size: 18px;
+        margin-left: 50px;
+        
+    }
+    
+    #form-the{
+        margin-left: 200px;
+        margin-top: 10px;
+        background-color:rgba(238, 85, 41, 1);
+        border-style: none;
+        text-align: center;
+      
+    }
+    
+    #form-the::placeholder {
+        color: white;
+    }
+    
+    .foot-link ul li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+        
+    
+    }
+    
+    .foot-link  ul li a{
+       color: rgba(238, 85, 41, 1);
+        text-decoration: none;
+         font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .foot-link ul {
+        margin-top: 30px;
+    }
+    
+    footer h6{
+        color: white;
+        font-size: 10px;
+        margin-top: 50px;
+    }
+    
+
+
+ 
+
+
+        
+    
+    
+     
+
+
+ 

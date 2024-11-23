@@ -1,0 +1,306 @@
+body{
+    width: 100%;
+    font-family: "Poppins", serif; 
+    font-size: small;
+}
+ 
+  
+  
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  
+  .hero nav{
+      background-color: rgb(0, 0, 0);
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      /* position: fixed;
+      width: 100%;
+      top: 0px;
+      z-index: 1; */
+  }
+  
+
+  
+  .hero nav ul li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 40px;
+  }
+  
+  .hero nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+  }
+  
+
+  
+  .hero nav a:hover{
+    color: rgba(238, 85, 41, 1);
+    transition: 0.5s;
+    }
+
+    .hero img{
+        width: 200px;
+    }
+
+
+    .services1 h1{
+        text-align: center;
+        font-family: "Days One", sans-serif;
+        font-size: 60px;
+        margin-top: 70px;
+        color: rgba(238, 85, 41, 1);
+    }
+
+/* 
+    <!-- -----services2------ --> */
+
+    .services2{
+        display: flex;
+        gap: 50px;
+        background-color:  rgba(238, 85, 41, 1);
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    .services2 img{
+        width: 700px;
+        margin-top: -70px;
+    }
+
+    .services2 h3,p.button{
+        padding-top: 60px;
+        font-family: "Days One", sans-serif;
+    }
+
+    .services2 h3{
+        font-size: 40px;
+        padding-left: 50px;
+        color: white;
+    }
+
+    .services2 p{
+        font-size: 16px;
+        padding-left: 50px;
+        width: 440px;
+        color: white;
+    }
+
+    .services2 button{
+        width: 170px;
+    height: 50px;
+    font-size: 20px;
+    border-style: none;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: 50px;
+    color: rgba(238, 85, 41, 1);
+    margin-top: 20px;
+    transition: 0.5s;
+    
+    }
+
+    .services2 button:hover{
+        transform: scale(1.1)   
+    }
+
+    /* <!-- -----services3------ --> */
+
+    
+    .services3{
+        display: flex;
+        gap: 50px;
+        background-color:  rgba(238, 85, 41, 1);
+        height: 520px;
+        margin-top: 90px;
+    }
+
+    .services3 img{
+        width: 800px;
+        margin-top: -40px;
+        margin-left: -600px;
+        
+    }
+
+    .services3 h3{
+        font-size: 40px;
+        padding-left: 50px;
+        color: white;
+        font-family: "Days One", sans-serif;
+    }
+
+    .services3 p{
+        font-size: 16px;
+        padding-left: 50px;
+        width: 940px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .services3 button{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border-style: none;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: 50px;
+    color: rgba(238, 85, 41, 1);
+    margin-top: 20px;
+    transition: 0.5s;
+    
+    }
+
+    .services3 button:hover{
+        transform: scale(1.1)   
+    }
+
+
+    /* <!-- -------- services4----- --> */
+
+    
+    .services4{
+        display: flex;
+        gap: 50px;
+        background-color:  rgba(238, 85, 41, 1);
+        height: 530px;
+        margin-top: 90px;
+    }
+
+    .services4 img{
+        width: 800px;
+        margin-top: -70px;
+        margin-left: -80px;
+    }
+
+    .services4 h3,p.button{
+        padding-top: 60px;
+        font-family: "Days One", sans-serif;
+    }
+
+    .services4 h3{
+        font-size: 40px;
+        padding-left: 50px;
+        color: white;
+    }
+
+    .services4 p{
+        font-size: 16px;
+        padding-left: 50px;
+        width: 440px;
+        color: white;
+    }
+
+    .services4 button{
+       
+         width: 400px;
+        height: 50px;
+            font-size: 20px;
+            border-style: none;
+            font-weight: bold;
+            border-radius: 2px;
+            margin-left: 50px;
+            color: rgba(238, 85, 41, 1);
+            margin-top: 20px;
+            transition: 0.5s;
+            
+    
+    }
+
+    .services4 button:hover{
+        transform: scale(1.1)   
+    }
+
+    .image-ser{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
+        margin-top: 80px;
+
+    }
+
+    .image-ser img{
+        width: 260px;
+    }
+
+    .goods-item:hover{
+        transform: scale(1.1)   
+    }
+
+    /* ....footer....... */
+    
+    .footer{
+        display: flex;
+        margin-top: 120px;
+        background-color: black;
+        height: 200px;
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+    
+    .footer h1, h4{
+        color: white;
+    }
+    
+    .footer input{
+        width: 200px;
+        height: 50px;
+        padding-left: 5px;
+        margin: 20px;
+        font-size: 18px;
+        margin-left: 50px;
+        
+    }
+    
+    #form-the{
+        margin-left: 200px;
+        margin-top: 10px;
+        background-color:rgba(238, 85, 41, 1);
+        border-style: none;
+        text-align: center;
+      
+    }
+    
+    #form-the::placeholder {
+        color: white;
+    }
+    
+    .foot-link ul li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+        
+    
+    }
+    
+    .foot-link  ul li a{
+       color: rgba(238, 85, 41, 1);
+        text-decoration: none;
+         font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .foot-link ul {
+        margin-top: 30px;
+    }
+    
+    footer h6{
+        color: white;
+        font-size: 10px;
+        margin-top: 50px;
+    }
+    
